@@ -1,0 +1,93 @@
+
+body {
+  margin:0;
+  background:#ccc;
+}
+
+form {
+  background:white;
+  border-radius:6px;
+  padding:20px;
+  padding-top:30px;
+  width:500px;
+  height: 320px;
+  margin:10% auto;
+  box-shadow:15px 15px 0px rgba(0,0,0,0.1);
+}
+.header{
+  margin: 0;
+  width: 100%;
+  height: 10px;
+  background: darkcyan;
+}
+.judul{
+  text-shadow: 0 9px 9px rgba(0,0,0,1);
+  color: darkcyan;
+  font-size: 1em;
+  padding: 1.8em;
+  font-family: verdana;
+}
+.icon{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+nav{
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background: white;
+  box-shadow: 9px 9px 8px rgba(0,0,0,0.1);
+}
+.form{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+h1 { 
+  text-align:center;
+  font-size:1.4em;
+  font-weight:700;
+  color:#000;
+  margin-bottom:24px;
+}
+
+span {
+  font-weight:200;
+}
+
+input{
+  padding: 9px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  height:  35px;
+  border: 0;
+}
+input[type=text],[type=password]{
+  border-bottom: 2px solid darkcyan;
+}
+.btn {
+  width: 45%;
+  background-color: darkcyan;
+  color: white;
+}
+.btn:hover{
+  top: 5px;
+  cursor: pointer;
+  background-color: #023f3f;
+}
+.false{
+  box-shadow: 1px 9px 9px rgba(0,0,0,0.1);
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 80%;
+  height: 15%;
+  background: pink;
+  padding: 15px;
+}
+.font-false{
+  margin-top:0px;
+}
